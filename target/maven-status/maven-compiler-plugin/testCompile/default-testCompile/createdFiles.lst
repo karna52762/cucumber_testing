@@ -1,0 +1,8 @@
+org\pojo\LoginPOJOClass.class
+org\pojo\HotelConfirmPOJOClass.class
+com\libglobal\BaseClass.class
+com\page\PageObjectManager.class
+com\stepdefinition\StepDefinition.class
+org\pojo\SearchHotelPOJOClass.class
+org\pojo\ConfirmationPOJOClass.class
+org\pojo\BookHotelPOJOClass.class
