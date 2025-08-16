@@ -58,7 +58,19 @@
 							<enableFlashCharts>true</enableFlashCharts>
 							<buildNumber>2.0</buildNumber>
 						</configuration>
-					</execution></executions></plugin></plugins></build>
+					</execution></executions>
+			</plugin>
+			  <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version> <!-- Or a later compatible version -->
+                <configuration>
+                    <source>1.8</source> <!-- Use 1.8 for Java 8, or a later version like 11, 17, 21 -->
+                    <target>1.8</target> <!-- Use 1.8 for Java 8, or a later version like 11, 17, 21 -->
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
 
 	<dependencies>
 	
